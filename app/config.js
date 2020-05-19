@@ -1,29 +1,15 @@
 export default {
-  VIEWBLOCK_URL: 'https://api.viewblock.io/v1/zilliqa/addresses/',
+  VIEWBLOCK_URL: 'https://0xfreight.com/addresses/',
   MULTIPLIER: 12,
-  MINIMUM_GAS_PRICE: 1000, // in Li
+  MINIMUM_GAS_PRICE: 21000, // in Li
   NODES: [
     {
-      name: 'Zilliqa Mainnet',
-      url: 'https://api.zilliqa.com',
-      explorer: 'https://viewblock.io/zilliqa/',
-      version: 65537,
+      name: 'Freight Trust Network',
+      url: 'htts://13.57.207.168:3435',
+      explorer: 'https://0xfreight.com',
+      version: 211,
       id: 1
     },
-    {
-      name: 'Zilliqa Testnet',
-      url: 'https://dev-api.zilliqa.com',
-      explorer: 'https://viewblock.io/zilliqa/',
-      version: 21823489,
-      id: 333
-    },
-    {
-      name: 'Zilliqa Kaya Server',
-      url: 'http://127.0.0.1:4200/',
-      explorer: '',
-      version: 21823489,
-      id: 2
-    }
   ],
   WALLET_METHODS: [
     {
